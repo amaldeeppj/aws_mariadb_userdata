@@ -10,7 +10,7 @@ DB_ROOT_PASS=abc@123
 yum update -y
 
 # set hostname
-hostnamectl set-hostname backend.amaldeep.tech
+hostnamectl set-hostname $HN 
 
 # install mariadb
 yum install mariadb-server -y 
